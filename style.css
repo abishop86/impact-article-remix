@@ -1,14 +1,12 @@
 /* CSS Reset - removes default browser styling */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Saira+Stencil+One&display=swap');
-</style>
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
 .container {
-  max-width: 800px; /* don't let it get wider than this */
-  margin: 0 auto; /* center it horizontally */
-  padding: 0 var(--space-md); /* breathing room on small screens */
- }
+    max-width: 800px; /* don't let it get wider than this */
+    margin: 0 auto; /* center it horizontally */
+    padding: 0 var(--space-md); /* breathing room on small screens */
+}
 
 /* Base body styles */
 body {
@@ -24,4 +22,16 @@ body {
 :root {
     color: #666666;
     background-color: #fff;
+
+    --ff-base: "Karla", karla;
+    --ff-accent: "Karla", karla;
+    --fs-body: 400; /* Regular for body text */
+    --fs-accent: 900; /* Bold for accent text */
+    --fs-heading: 700; /* Semi-bold for headings */
+}
+
+.hero-image {
+    max-width: 80%;
+    max-height: 80%;
+    /* margin: 0 auto; */
 }
