@@ -1,6 +1,6 @@
 /* CSS Reset - removes default browser styling */
 
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .container {
     max-width: 800px; /* don't let it get wider than this */
@@ -23,8 +23,8 @@ body {
     color: #666666;
     background-color: #fff;
 
-    --font-heading: "Karla", karla;
-    --font-body: "Karla", karla;
+    --font-heading: "Montserrat", montserrat;
+    --font-body: "Montserrat", montserrat;
 
     --fs-body: 400; /* Regular for body text */
     --fs-accent: 900; /* Bold for accent text */
