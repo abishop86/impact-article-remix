@@ -21,8 +21,8 @@ body {
 }
 
 :root {
-    color: #ffffff;
-    background-color: #1f204a;
+    color: #c2c2c2;
+    background-color: #000000;
 
     --font-heading: "Montserrat", montserrat;
     --font-body: "Montserrat", montserrat;
