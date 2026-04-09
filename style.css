@@ -20,9 +20,6 @@ body {
 }
 
 :root {
-    color: #c2c2c2;
-    background-color: #000000;
-
     --font-heading: "Montserrat", montserrat;
     --font-body: "Montserrat", montserrat;
 
@@ -79,7 +76,7 @@ details > p {
 
 .highlight-item {
     flex: 1 1 3rem;
-    background: var(--bg-secondary);
+    background: var(--color);
     padding: var(--space-md);
     border-radius: var(--radius-md);
     border: 2rem solid var(--border-color);
@@ -101,12 +98,12 @@ details > p {
 
 footer {
     background: var(--color);
-    border-top: 2rem solid var(--background-color);
+    border-top: 1rem solid var(--background-color);
     padding: var(--space-lg) 0;
     margin-top: var(--space-xl);
 }
 
 footer .container {
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
 }
