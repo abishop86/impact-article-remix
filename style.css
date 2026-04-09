@@ -2,6 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+:root {
+    --font-heading: "Montserrat", montserrat;
+    --font-body: "Montserrat", montserrat;
+
+    --fs-body: 400; /* Regular for body text */
+    --fs-accent: 900; /* Bold for accent text */
+    --fs-heading: 700; /* Semi-bold for headings */
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 1rem;
+    --space-xl: 2rem;
+}
+
 .container {
     max-width: 92.5%;
     margin: 0 auto;
@@ -17,21 +32,6 @@ body {
     line-height: 1.6;
     color: #c2c2c2;
     background-color: #1f204a;
-}
-
-:root {
-    --font-heading: "Montserrat", montserrat;
-    --font-body: "Montserrat", montserrat;
-
-    --fs-body: 400; /* Regular for body text */
-    --fs-accent: 900; /* Bold for accent text */
-    --fs-heading: 700; /* Semi-bold for headings */
-
-    --space-xs: 0.5rem;
-    --space-sm: 1rem;
-    --space-md: 2rem;
-    --space-lg: 1rem;
-    --space-xl: 2rem;
 }
 
 header {
