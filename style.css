@@ -3,12 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .container {
-    max-width: 800px; /* don't let it get wider than this */
-    margin: 0 auto; /* center it horizontally */
-    padding: 0 var(--space-md); /* breathing room on small screens */
+    max-width: 92.5%;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
 }
 
-/* Base body styles */
 body {
     font-family:
         Montserrat,
@@ -53,6 +52,18 @@ header .container {
 header h1 {
     font-family: var(--font-heading);
     font-size: 2rem;
+}
+
+details > summary {
+  padding: 1rem;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+}
+
+details > p {
+  padding: 1rem;
+  margin: 0;
 }
 
 .hero-image {
