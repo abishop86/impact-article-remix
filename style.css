@@ -66,10 +66,10 @@ header h1 {
 
 .highlight-item {
     flex: 1 1 3rem;
-    background: var(--color);
+    background: var(--card-primary);
     padding: var(--space-md);
     border-radius: var(--radius-md);
-    border: 2rem solid var(card-primary);
+    border: 0.5rem solid var(--border-primary);
     transition: all 0.3s ease;
 }
 
