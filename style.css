@@ -32,6 +32,8 @@ body {
     line-height: 1.6;
     color: #c2c2c2;
     background-color: #1f204a;
+    card-primary: #000000;
+    border-primary: #ffffff;
 }
 
 header {
@@ -51,18 +53,6 @@ header h1 {
     font-size: 2rem;
 }
 
-details > summary {
-    padding: 1rem;
-    width: 90%;
-    border: none;
-    cursor: pointer;
-}
-
-details > p {
-    padding: 1rem;
-    margin: 0;
-}
-
 .hero-image {
     max-width: 80%;
     max-height: 80%;
@@ -79,14 +69,14 @@ details > p {
     background: var(--color);
     padding: var(--space-md);
     border-radius: var(--radius-md);
-    border: 2rem solid var(--border-color);
+    border: 2rem solid var(card-primary);
     transition: all 0.3s ease;
 }
 
 .highlight-item:hover {
     transform: translateY(-4px);
-    box-shadow: 0 2rem 4rem var(--shadow-color);
-    border-color: var(--accent-primary);
+    box-shadow: 0 2rem 4rem var(--border-color);
+    border-color: var(--color);
 }
 
 .highlight-item h4 {
