@@ -58,10 +58,6 @@ header h1 {
     max-height: 80%;
 }
 
-.hero {
-    text-align: center;
-}
-
 .hero-image {
     margin-bottom: var(--space-lg);
     margin-top: var(--space-md);
