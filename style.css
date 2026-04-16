@@ -37,18 +37,18 @@ body {
 }
 
 body.light {
-  --light-background-color: #afbfef;   /* ← choose your dark background */
-  --light-color: #696969;              /* ← choose your dark text color */
+    background-color: #afbfef;
+    color: #696969;
 }
 
 #light-mode-toggle {
-  cursor: pointer;
-  padding: 0.4rem 0.8rem;
-  border: 1px solid currentColor;
-  background: transparent;
-  color: inherit;
-  border-radius: 4px;
-  font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 header {
