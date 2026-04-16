@@ -10,7 +10,8 @@
 
     <body>
         <div class="container">
-            <header>FOX 86 Allentown</header><button id="dark-mode-toggle">Dark mode</button>
+            <header>FOX 86 Allentown</header>
+            <button id="light-mode-toggle">Light mode</button>
             <h1>The quick brown fox jumps over the lazy dog.</h1>
             <p>Asher Bishop, 03/05/2026, 8:45 AM</p>
         </div>
@@ -75,15 +76,16 @@
             </footer>
         </main>
         <script>
-            const toggleButton = document.getElementById('dark-mode-toggle');
+            const toggleButton = document.getElementById("light-mode-toggle");
 
-            toggleButton.addEventListener('click', function () {
-            document.body.classList.toggle('dark');
-            if (document.body.classList.contains('dark')) {
-            toggleButton.textContent = 'Light mode';
-            } else {
-            toggleButton.textContent = 'Dark mode';
-            }
-            });</script>
+            toggleButton.addEventListener("click", function () {
+                document.body.classList.toggle("light");
+                if (document.body.classList.contains("light")) {
+                    toggleButton.textContent = "Dark mode";
+                } else {
+                    toggleButton.textContent = "Light mode";
+                }
+            });
+        </script>
     </body>
 </html>

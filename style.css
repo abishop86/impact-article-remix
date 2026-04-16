@@ -36,12 +36,12 @@ body {
     --border-primary: #afbfef;
 }
 
-body.dark {
-  background-color: #121212;   /* ← choose your dark background */
-  color: #e0e0e0;              /* ← choose your dark text color */
+body.light {
+  --light-background-color: #afbfef;   /* ← choose your dark background */
+  --light-color: #696969;              /* ← choose your dark text color */
 }
 
-#dark-mode-toggle {
+#light-mode-toggle {
   cursor: pointer;
   padding: 0.4rem 0.8rem;
   border: 1px solid currentColor;
