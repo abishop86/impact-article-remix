@@ -36,6 +36,21 @@ body {
     --border-primary: #afbfef;
 }
 
+body.dark {
+  background-color: #121212;   /* ← choose your dark background */
+  color: #e0e0e0;              /* ← choose your dark text color */
+}
+
+#dark-mode-toggle {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
 header {
     background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-primary) 100%);
     padding: var(--space-sm) 0;
