@@ -44,7 +44,7 @@ body.light {
     background-color: #afbfef;
     color: #5e5e5e;
     --card-primary: #ffffff
-    --border-primary: #c2c2c2
+    --border-primary: #000000
 }
 
 /* "Light mode" button styling */
