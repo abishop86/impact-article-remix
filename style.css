@@ -54,7 +54,7 @@ body.light {
     border: 0.1rem solid currentColor;
     background: transparent;
     color: inherit;
-    border-radius: 4px;
+    border-radius: 0.4rem;
     font-size: 0.9rem;
 }
 
@@ -86,7 +86,7 @@ header h1 {
     margin-top: var(--space-md);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: 0 8px 24px var(--shadow-color);
+    box-shadow: 0 2rem 4rem var(--shadow-color);
 }
 
 /* Image property styling */
