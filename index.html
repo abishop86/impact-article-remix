@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en-US">
+    <!-- Invisible elements & styling -->
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,13 +11,18 @@
 
     <body>
         <div class="container">
+            <!-- "Light mode" button -->
             <header><button id="light-mode-toggle">Light mode</button></header>
+
+            <!-- Article Title & Author Details -->
             <h1>The quick brown fox jumps over the lazy dog.</h1>
             <details>
                 <summary>Author & Publication Information</summary>
-            <p>Asher Bishop, 03/05/2026, 8:45 AM</p>
+                <p>Asher Bishop, 03/05/2026, 8:45 AM</p>
             </details>
         </div>
+
+        <!-- Image & Image Description -->
         <main class="container">
             <section class="hero">
                 <div class="hero-image">
@@ -26,6 +32,8 @@
                 </div>
                 <p>An image of a brown fox. (Source: Unsplash)</p>
             </section>
+
+            <!-- Main article text -->
             <div class="container">
                 <p>
                     A 1-in-a-million situation happened in Scranton, PA on Tuesday. A security camera caught a moment
@@ -50,6 +58,8 @@
                     commented, "but we have to double down on these out-of-control foxes."
                 </p>
             </div>
+
+            <!-- Further reading cards -->
             <div class="container">
                 <h3>If you like this article, also check out:</h3>
                 <div class="cards">
@@ -71,6 +81,7 @@
                 </div>
             </div>
 
+            <!-- Footer & end credits -->
             <footer>
                 <div class="container">
                     <p>FOX 86 Allentown</p>
@@ -78,9 +89,10 @@
                 </div>
             </footer>
         </main>
+
+        <!-- JavaScript elements for "Light mode" button -->
         <script>
             const toggleButton = document.getElementById("light-mode-toggle");
-
             toggleButton.addEventListener("click", function () {
                 document.body.classList.toggle("light");
                 if (document.body.classList.contains("light")) {
