@@ -2,13 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+/* Styling variables */
 :root {
     --font-heading: "Montserrat", montserrat;
     --font-body: "Montserrat", montserrat;
 
-    --fs-body: 400; /* Regular for body text */
-    --fs-accent: 900; /* Bold for accent text */
-    --fs-heading: 700; /* Semi-bold for headings */
+    --fs-body: 400;
+    --fs-accent: 900;
+    --fs-heading: 700;
 
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -17,12 +18,14 @@
     --space-xl: 2rem;
 }
 
+/* Width settings */
 .container {
     max-width: 92.5%;
     margin: 0 auto;
     padding: 0 var(--space-md);
 }
 
+/* Text, Colors & other styling */
 body {
     font-family:
         Montserrat,
@@ -36,44 +39,47 @@ body {
     --border-primary: #afbfef;
 }
 
+/* Light mode colors */
 body.light {
     background-color: #afbfef;
     color: #3c3c3c;
 }
 
+/* "Light mode" button styling */
 #light-mode-toggle {
     cursor: pointer;
     padding: 0.4rem 0.8rem;
-    border: 1px solid currentColor;
+    border: 0.1rem solid currentColor;
     background: transparent;
     color: inherit;
     border-radius: 4px;
     font-size: 0.9rem;
 }
 
+/* Button area spacing */
 header {
     background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-primary) 100%);
     padding: var(--space-sm) 0;
     box-shadow: 0 2rem 12rem var(--color);
 }
 
+/* Flexbox for the header */
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Title Text styling */
 header h1 {
     font-family: var(--font-heading);
     font-size: 2rem;
 }
 
+/* Image container styling */
 .hero-image {
     max-width: 80%;
     max-height: 80%;
-}
-
-.hero-image {
     margin-bottom: var(--space-lg);
     margin-top: var(--space-md);
     border-radius: var(--radius-lg);
@@ -81,6 +87,7 @@ header h1 {
     box-shadow: 0 8px 24px var(--shadow-color);
 }
 
+/* Image property styling */
 .hero-image img {
     max-width: 100%;
     max-height: 100%;
@@ -89,12 +96,14 @@ header h1 {
     transition: transform 0.3s ease;
 }
 
+/* flexbox for the cards */
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-md);
 }
 
+/* Card styling */
 .card {
     flex: 1 1 3rem;
     background: var(--card-primary);
@@ -104,23 +113,27 @@ header h1 {
     transition: all 0.3s ease;
 }
 
+/* Styling of the card when selected */
 .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 2rem 4rem var(--border-color);
     border-color: var(--color);
 }
 
+/* Card title styling */
 .card h4 {
     font-family: var(--font-heading);
     font-size: 1.25rem;
     margin-bottom: var(--space-xs);
 }
 
+/* Makes the card unique */
 .card a {
     text-decoration: none;
     color: inherit;
 }
 
+/* footer styling */
 footer {
     background: var(--color);
     border-top: 1rem solid var(--background-color);
@@ -128,6 +141,7 @@ footer {
     margin-top: var(--space-xl);
 }
 
+/* footer container styling */
 footer .container {
     margin: 1rem;
     padding: 1rem;
