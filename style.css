@@ -41,10 +41,8 @@ body {
 
 /* Light mode colors */
 body.light {
-    background-color: #afbfef;
+    background-color: #d4defb;
     color: #5e5e5e;
-    --card-primary: #ffffff
-    --border-primary: #000000
 }
 
 /* "Light mode" button styling */
@@ -55,7 +53,7 @@ body.light {
     background: transparent;
     color: inherit;
     border-radius: 0.4rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* Button area spacing */
@@ -117,7 +115,7 @@ header h1 {
 
 /* Styling of the card when selected */
 .card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-0.4rem);
     box-shadow: 0 2rem 4rem var(--border-color);
     border-color: var(--color);
 }
