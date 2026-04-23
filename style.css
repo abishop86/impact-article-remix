@@ -134,7 +134,7 @@ header h1 {
 #myDIV {
     border: 0.1rem solid white;
     background-color: #afbfef;
-    color: black;
+    color: #000000;
     animation: mymove 2s infinite;
 }
 
