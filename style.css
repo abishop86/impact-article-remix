@@ -132,15 +132,15 @@ header h1 {
 }
 
 #myDIV {
-    border: 0.1rem solid black;
-    background-color: #c2c2c2;
+    border: 0.1rem solid white;
+    background-color: #afbfef;
     color: black;
     animation: mymove 2s infinite;
 }
 
 @keyframes mymove {
-    100% {
-        font-weight: bold;
+    50% {
+    background-color: white;
     }
 }
 
