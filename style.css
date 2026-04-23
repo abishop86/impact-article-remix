@@ -131,6 +131,19 @@ header h1 {
     color: inherit;
 }
 
+#myDIV {
+    border: 0.1rem solid black;
+    background-color: #c2c2c2;
+    color: black;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    100% {
+        font-weight: bold;
+    }
+}
+
 /* footer styling */
 footer {
     background: var(--color);
