@@ -14,8 +14,6 @@
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
-    --space-lg: 1rem;
-    --space-xl: 2rem;
 }
 
 /* Width settings */
@@ -80,9 +78,9 @@ header h1 {
 .hero-image {
     max-width: 80%;
     max-height: 80%;
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-sm);
     margin-top: var(--space-md);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-sm);
     overflow: hidden;
     box-shadow: 0 2rem 4rem var(--shadow-color);
 }
@@ -137,8 +135,8 @@ header h1 {
 footer {
     background: var(--color);
     border-top: 1rem solid var(--background-color);
-    padding: var(--space-lg) 0;
-    margin-top: var(--space-xl);
+    padding: var(--space-sm) 0;
+    margin-top: var(--space-md);
 }
 
 /* footer container styling */
