@@ -135,6 +135,7 @@ header h1 {
     border: 0.1rem solid white;
     background-color: #afbfef;
     color: #000000;
+    text-align: center;
     animation: mymove 2s infinite;
 }
 
