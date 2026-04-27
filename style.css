@@ -131,6 +131,7 @@ header h1 {
     color: inherit;
 }
 
+/* Animated link properties */
 #myDIV {
     border: 0.1rem solid white;
     background-color: #afbfef;
@@ -139,9 +140,10 @@ header h1 {
     animation: mymove 2s infinite;
 }
 
+/* Properties of the animation itself */
 @keyframes mymove {
     50% {
-    background-color: white;
+        background-color: white;
     }
 }
 
