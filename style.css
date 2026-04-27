@@ -98,6 +98,7 @@ header h1 {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    /* Adjusts the cards to look better on smaller screens */
     gap: var(--space-md);
 }
 
@@ -134,7 +135,7 @@ header h1 {
 /* Animated link properties */
 #myDIV {
     border: 0.1rem solid white;
-    background-color: #afbfef;
+    background-color: #afbfef; /* Text box colors */
     color: #000000;
     text-align: center;
     animation: mymove 2s infinite;
@@ -144,6 +145,7 @@ header h1 {
 @keyframes mymove {
     50% {
         background-color: white;
+        /* Switches background color from blue to white */
     }
 }
 
